@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="circle"></div>
+    <input type="color" id="colorInput" onchange="cambioColor(this.value)">
+    <p>Altura</p>
+    <div class="botones">
+        <button onclick="agrandarAltura()">+</button>
+        <button onclick="disminuirAltura()">-</button>
+    </div>
+    <p>Anchura</p>
+    <div class="botones">
+        <button onclick="agrandarAnchura()">+</button>
+        <button onclick="disminuirAnchura()">-</button>
+    </div>
+    <button class="ocultarCirculo" onclick="visibilidad()">Visibilidad</button>
+    <script src="circulo.js"></script>
+</body>
+
+</html>
